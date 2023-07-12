@@ -18,8 +18,6 @@ mongoose
   .connect(process.env.MONGO_URL, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
-    // useCreateIndex: true,
-    // useFindAndMOdify: true,
   })
   .then(() => {
     console.log("db connected");
